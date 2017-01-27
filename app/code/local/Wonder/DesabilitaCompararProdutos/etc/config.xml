@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Wonder_DesabilitaCompararProdutos>
+            <version>0.0.1</version>
+        </Wonder_DesabilitaCompararProdutos>
+    </modules>
+    <global>
+        <models>
+            <wonder_desabilitacompararprodutos>
+                <class>Wonder_DesabilitaCompararProdutos_Model</class>
+            </wonder_desabilitacompararprodutos>
+        </models>
+        <helpers>
+            <wonder_desabilitacompararprodutos>
+                <class>Wonder_DesabilitaCompararProdutos_Helper</class>
+            </wonder_desabilitacompararprodutos>
+            <catalog>
+                <rewrite>
+                    <product_compare>Wonder_DesabilitaCompararProdutos_Helper_Compare</product_compare>
+                </rewrite>
+            </catalog>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <wonder_desabilitacompararprodutos>
+                    <file>wonder/desabilitacompararprodutos.xml</file>
+                </wonder_desabilitacompararprodutos>
+            </updates>
+        </layout>
+    </frontend>
+</config>
